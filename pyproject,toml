@@ -1,0 +1,24 @@
+[project]
+name = "SPTL-Patented_Speed_Reading_Accelerator"
+version = "1.0.0"
+description = "SPTL专利速读加速器"
+
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+[build-system]
+requires = ["setuptools", setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*"]  # package names should match these glob patterns (["*"] by default)
+exclude = ["tests*"]  # exclude packages matching these glob patterns (empty by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
+
+# https://docs.pytest.org/en/stable/reference/customize.html#pyproject-toml
+[tool.pytest.ini_options]
+addopts = "--verbose"
+testpaths = ["tests"]
+
+# https://flask.palletsprojects.com/en/2.3.x/tutorial/tests/#running-the-tests
+[tool.coverage.run]
+branch = true
+source = ["src"]

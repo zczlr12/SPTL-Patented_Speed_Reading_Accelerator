@@ -1,0 +1,15 @@
+fitz==0.0.1.dev2
+openai==0.27.8
+pandas==1.5.3
+Pillow==9.3.0
+pyecharts==2.0.3
+pytesseract==0.3.10
+PyYAML==6.0.1
+Requests==2.31.0
+snapshot_pyppeteer==0.0.2
+st_pages==0.4.4
+streamlit==1.26.0
+streamlit_authenticator==0.2.2
+streamlit_echarts==0.4.0
+tenacity==8.2.2
+tiktoken==0.4.0

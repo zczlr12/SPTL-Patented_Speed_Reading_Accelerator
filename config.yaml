@@ -1,0 +1,37 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    '11':
+      email: "1@\u53BB.com"
+      name: '11'
+      password: $2b$12$YqI3JJcogADNq8KTMqj.0erYb9MkS7Ok7L6qnH3IvIPaGK2FTjrjm
+    '123456':
+      email: 1145141919280@gmail.com
+      name: '123456'
+      password: $2b$12$dd.Fyfh3UONlG6ACKYTJ8.bsO2HEhuKR80SplyTEYR0QP/uvZCm9C
+    lrk:
+      email: liurenkai2002@163.com
+      name: "\u5218\u4EBA\u607A"
+      password: $2b$12$i2SJq4WfRgX/d2Qs1XMJx.seS63I/F.RVUNGPd6c./OLkNbXc8lCi
+    lujia:
+      email: jia.lu@sptl.com.cn
+      name: LuJia
+      password: $2b$12$hFYawwfnHXE7WjuXxrjJLe/RD7TmpMhRJe4Exdqe3B62NUrRjUCjm
+    xinchen:
+      email: shizhixinchen@gmail.com
+      name: "\u661F\u5C18"
+      password: $2b$12$yHUlw0V5e3j.5kStXtnNFeTVtV6J5ENxP0XcfrA0pJW4WllkOshIe
+    xuyiyang:
+      email: yiyang.xu@sptl.com.cn
+      name: xuyiyang
+      password: $2b$12$56ibNzxx5pDqNGrsGiQI/uHP0rOeQli/RhbmMlYq8gmBOY4Vr/84y
+    zczlr12:
+      email: zczlr12@ucl.ac.uk
+      name: Renkai Liu
+      password: $2b$12$I1CKOtFXeC9mAMlYcjZoaetnS2EvARBhXiS7cg6dllOONxLsN.V2q
+preauthorized:
+  emails:
+  - melsby@gmail.com
