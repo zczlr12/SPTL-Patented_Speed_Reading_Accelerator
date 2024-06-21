@@ -1,2 +1,3 @@
 # SPTL-Patented_Speed_Reading_Accelerator
-SPTL专利速读加速器
+2023年上专所暑期实习做的小项目
+当时不懂文件结构的规范，持续更新中
